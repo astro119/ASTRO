@@ -5,7 +5,7 @@ Dependencies
 - Waterfall 
 - CryoTanks
 
-Recommended Mods
+Highly Recommended Mods
 - ReDIRECT
 - Kertemis Program
  
