@@ -1,5 +1,5 @@
 # mars base camp
-Mars Base Camp
+warning: DO NOT DOWNLOAD OFF OF THE MASTER, DOWNLOAD FROM RELEASES
  
 Dependencies
 - CryoTanks (Liquid Hydrogen Resource)
