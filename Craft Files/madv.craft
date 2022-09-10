@@ -2,7 +2,7 @@ ship = madv
 version = 1.12.3
 description = 
 type = SPH
-size = 6.63353443,6.73558617,15.9704208
+size = 6.63353443,15.9704342,6.7355895
 steamPublishedFileId = 0
 persistentId = 2129675644
 rot = 0,0,0,0
@@ -17,10 +17,10 @@ PART
 	part = madv.lf_4293084844
 	partName = Part
 	persistentId = 3239944394
-	pos = -7.5056505E-06,7.67603588,3.71932983E-05
+	pos = 1.1920929E-06,7.95950794,0.0962769985
 	attPos = 0,0,0
 	attPos0 = 0,7.67609215,0
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,0.99999994
 	attRot0 = 0.707106769,0,0,0.707106769
 	mir = 1,1,1
@@ -35,8 +35,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 0.228782877
-	modMass = -0.00381830567
+	modCost = 0.27483052
+	modMass = -0.00458195666
 	modSize = 0,0,0
 	link = madv.compartment_4293084502
 	link = madv.elevon_4293084426
@@ -50,8 +50,8 @@ PART
 	link = madv.elevator_4293083646
 	link = madv.gear_4293083532
 	link = madv.gear_4293083416
-	link = madv.gear_4293083300
 	link = madv.gear_4293083184
+	link = madv.gear_4293489624
 	attN = node_engine1,rl10madv_4293084382_1.26119703E-05|-2.52109623|-1.83546317_-8.74227908E-08|-1.00000012|-1.1920929E-07_1.26119703E-05|-2.52109623|-1.83546317_-8.74227908E-08|-1.00000012|-1.1920929E-07
 	attN = node_engine2,rl10madv_4293083992_1.58956409|-2.52109623|-0.917720616_-1.49011612E-07|-1|-3.27825546E-07_1.58956409|-2.52109623|-0.917720616_-1.49011612E-07|-1|-3.27825546E-07
 	attN = node_engine3,rl10madv_4293084070_1.58955133|-2.52109599|0.91774261_1.78813934E-07|-1|-2.98023224E-07_1.58955133|-2.52109599|0.91774261_1.78813934E-07|-1|-2.98023224E-07
@@ -60,7 +60,7 @@ PART
 	attN = node_engine6,rl10madv_4293084304_-1.58955133|-2.52109575|-0.917742968_-4.76837158E-07|-1|6.70552254E-07_-1.58955133|-2.52109575|-0.917742968_-4.76837158E-07|-1|6.70552254E-07
 	attN = bottom2,madv.cargolift_4293083914_1.1920929E-07|-1.68236399|0.00746130943_-5.64260006E-07|-1.00000012|-1.19209332E-07_1.1920929E-07|-1.68236399|0.00746130943_-5.64260006E-07|-1.00000012|-1.19209332E-07
 	attN = bottom3,madv.gear_4293083184_2.61830616|-2.14387631|-2.66254711_0.707106531|4.56194016E-08|-0.707106948_2.61830616|-2.14387631|-2.66254711_0.707106531|4.56194016E-08|-0.707106948
-	attN = bottom4,madv.gear_4293083300_-2.61830616|-2.14387631|-2.66254711_-0.707107127|2.08529229E-08|-0.707106471_-2.61830616|-2.14387631|-2.66254711_-0.707107127|2.08529229E-08|-0.707106471
+	attN = bottom4,madv.gear_4293489624_-2.61830616|-2.14387631|-2.66254711_-0.707107127|2.08529229E-08|-0.707106471_-2.61830616|-2.14387631|-2.66254711_-0.707107127|2.08529229E-08|-0.707106471
 	attN = bottom5,madv.gear_4293083532_-2.61674404|-2.14387584|2.67609072_-0.707106829|-4.17059027E-08|0.707106709_-2.61674404|-2.14387584|2.67609072_-0.707106829|-4.17059027E-08|0.707106709
 	attN = bottom6,madv.gear_4293083416_2.61674404|-2.14387584|2.67609072_0.707106829|6.45155893E-08|0.707106709_2.61674404|-2.14387584|2.67609072_0.707106829|6.45155893E-08|0.707106709
 	attN = bottom8,madv.compartment_4293084502_-3.57627869E-07|-2.65723896|0.00746142864_-3.25841398E-07|-1.00000012|-1.19209318E-07_-3.57627869E-07|-2.65723896|0.00746142864_-3.25841398E-07|-1.00000012|-1.19209318E-07
@@ -141,7 +141,7 @@ PART
 	{
 		name = FlagDecal
 		isEnabled = True
-		flagDisplayed = False
+		flagDisplayed = True
 		isMirrored = False
 		stagingEnabled = True
 		EVENTS
@@ -300,7 +300,7 @@ PART
 	{
 		name = ModuleCryoTank
 		isEnabled = True
-		LastUpdateTime = 31646317.542372111
+		LastUpdateTime = 31648685.585423063
 		CoolingAllowed = True
 		CoolingEnabled = True
 		BoiloffOccuring = False
@@ -368,8 +368,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-7.5056505E-06, 7.67603588, 4.10079956E-05)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (1.1920929E-06, 7.95950794, 0.0962769985)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, -2.5, -1.8)
@@ -471,8 +471,8 @@ PART
 	RESOURCE
 	{
 		name = LqdHydrogen
-		amount = 24979.6875
-		maxAmount = 24979.6875
+		amount = 29975.626953125
+		maxAmount = 29975.626953125
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -482,8 +482,8 @@ PART
 	RESOURCE
 	{
 		name = Oxidizer
-		amount = 1665.3125
-		maxAmount = 1665.3125
+		amount = 1998.3751220703125
+		maxAmount = 1998.3751220703125
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -496,10 +496,10 @@ PART
 	part = madv.compartment_4293084502
 	partName = Part
 	persistentId = 4069550611
-	pos = -7.86327837E-06,7.66858864,-2.65724659
+	pos = 8.34465027E-07,5.3022213,0.103723288
 	attPos = 0,0,0
 	attPos0 = -3.57627869E-07,-2.65724325,0.00746154878
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -631,8 +631,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-7.86327837E-06, 7.66858864, -2.65724087)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (8.34465027E-07, 5.3022213, 0.103723288)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -677,10 +677,10 @@ PART
 	part = madv.elevon_4293084426
 	partName = Part
 	persistentId = 923954825
-	pos = -8.81695269E-06,5.35416985,-2.9594698
+	pos = -1.1920929E-07,5,2.41813183
 	attPos = 0,0,0
 	attPos0 = -1.31130219E-06,-2.95946741,2.32186055
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -930,8 +930,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.81695269E-06, 5.3541708, -2.95946407)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (-1.1920929E-07, 5, 2.41813183)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -976,10 +976,10 @@ PART
 	part = rl10madv_4293084382
 	partName = Part
 	persistentId = 479263684
-	pos = 5.1063198E-06,9.51151657,-2.52111149
+	pos = 1.38040632E-05,5.43835449,-1.73920465
 	attPos = 0,0,0
 	attPos0 = 1.26119703E-05,-2.52110052,-1.83546352
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -1243,8 +1243,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (5.1063198E-06, 9.51151657, -2.52110577)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (1.38040632E-05, 5.43835449, -1.73920465)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -1289,10 +1289,10 @@ PART
 	part = rl10madv_4293084304
 	partName = Part
 	persistentId = 3073183313
-	pos = -1.58955884,8.59379292,-2.52110767
+	pos = -1.58955014,5.43835831,-0.821480989
 	attPos = 0,0,0
 	attPos0 = -1.58955133,-2.52110052,-0.917742789
-	rot = 0.612372458,0.353553385,0.353553444,0.612372458
+	rot = 0,0.5,5.96046377E-08,0.866025388
 	attRot = 0,0,0,1
 	attRot0 = 0,0.5,5.96046377E-08,0.866025388
 	mir = 1,1,1
@@ -1548,8 +1548,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-1.58955884, 8.59379292, -2.52110195)
-		originalRotation = (0.612372458, 0.353553385, 0.353553444, 0.612372458)
+		originalPos = (-1.58955014, 5.43835831, -0.821480989)
+		originalRotation = (0, 0.5, 5.96046377E-08, 0.866025388)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -1594,10 +1594,10 @@ PART
 	part = rl10madv_4293084226
 	partName = Part
 	persistentId = 3710791092
-	pos = -1.58957171,6.75831509,-2.52110195
+	pos = -1.58956301,5.43836594,1.01399875
 	attPos = 0,0,0
 	attPos0 = -1.5895642,-2.52110052,0.917720795
-	rot = 0.353553385,0.612372518,0.612372518,0.353553385
+	rot = 0,0.866025448,0,0.49999994
 	attRot = 0,0,0,1
 	attRot0 = 0,0.866025448,8.94069672E-08,0.49999997
 	mir = 1,1,1
@@ -1855,8 +1855,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-1.58957171, 6.75831509, -2.52109623)
-		originalRotation = (0.353553385, 0.612372518, 0.612372518, 0.353553385)
+		originalPos = (-1.58956301, 5.43836594, 1.01399875)
+		originalRotation = (0, 0.866025448, 0, 0.49999994)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -1901,10 +1901,10 @@ PART
 	part = rl10madv_4293084148
 	partName = Part
 	persistentId = 3011546779
-	pos = -2.03802538E-05,5.84057236,-2.52110195
+	pos = -1.16825104E-05,5.43836594,1.93174148
 	attPos = 0,0,0
 	attPos0 = -1.28746033E-05,-2.52110052,1.83546352
-	rot = -3.09086232E-08,0.707106769,0.707106888,-3.09086232E-08
+	rot = 0,1,1.19209275E-07,-4.37113918E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,1,1.19209275E-07,-4.37113883E-08
 	mir = 1,1,1
@@ -2162,8 +2162,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-2.03802538E-05, 5.84057236, -2.52109623)
-		originalRotation = (-3.09086232E-08, 0.707106769, 0.707106888, -3.09086232E-08)
+		originalPos = (-1.16825104E-05, 5.43836594, 1.93174148)
+		originalRotation = (0, 1, 1.19209275E-07, -4.37113918E-08)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -2208,10 +2208,10 @@ PART
 	part = rl10madv_4293084070
 	partName = Part
 	persistentId = 3225622613
-	pos = 1.58954382,6.75829315,-2.52110195
+	pos = 1.58955252,5.43836594,1.01402068
 	attPos = 0,0,0
 	attPos0 = 1.58955133,-2.52110052,0.917742729
-	rot = -0.353553504,0.612372339,0.612372458,-0.353553504
+	rot = 0,0.866025329,8.94069601E-08,-0.500000119
 	attRot = 0,0,0,1
 	attRot0 = 0,0.866025329,8.94069601E-08,-0.50000006
 	mir = 1,1,1
@@ -2469,8 +2469,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (1.58954382, 6.75829315, -2.52109623)
-		originalRotation = (-0.353553504, 0.612372339, 0.612372458, -0.353553504)
+		originalPos = (1.58955252, 5.43836594, 1.01402068)
+		originalRotation = (0, 0.866025329, 8.94069601E-08, -0.500000119)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -2515,10 +2515,10 @@ PART
 	part = rl10madv_4293083992
 	partName = Part
 	persistentId = 2383939699
-	pos = 1.58955657,8.59377098,-2.52110767
+	pos = 1.58956528,5.43835831,-0.821459055
 	attPos = 0,0,0
 	attPos0 = 1.58956409,-2.52110052,-0.917720854
-	rot = -0.612372339,0.353553414,0.353553474,-0.612372458
+	rot = 8.94069672E-08,0.500000119,5.96046412E-08,-0.866025388
 	attRot = 0,0,0,1
 	attRot0 = 5.96046377E-08,0.50000006,5.96046377E-08,-0.866025329
 	mir = 1,1,1
@@ -2774,8 +2774,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (1.58955657, 8.59377098, -2.52110195)
-		originalRotation = (-0.612372339, 0.353553414, 0.353553474, -0.612372458)
+		originalPos = (1.58956528, 5.43835831, -0.821459055)
+		originalRotation = (8.94069672E-08, 0.500000119, 5.96046412E-08, -0.866025388)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -2820,10 +2820,10 @@ PART
 	part = madv.cargolift_4293083914
 	partName = Part
 	persistentId = 1238188930
-	pos = -7.38644121E-06,7.66858864,-1.682374
+	pos = 1.31130219E-06,6.27709389,0.103723288
 	attPos = 0,0,0
 	attPos0 = 1.1920929E-07,-1.68236876,0.00746154878
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -2841,7 +2841,7 @@ PART
 	modCost = 400
 	modMass = 0.319999993
 	modSize = 0,0,0
-	attN = bottom,Null_0_0|-4.625|0_0|1|0_3.3024844E-07|-1.69092751|2.38418579E-07_0|1.00000012|1.1920929E-07
+	attN = bottom,Null_0_0|-4.625|0_0|1|0_3.3024844E-07|-1.69091988|2.23517418E-08_0|1.00000012|-1.1920929E-07
 	attN = top,madv.lf_4293084844_0|0|0_0|1|0_0|0|0_0|1|0
 	EVENTS
 	{
@@ -3099,8 +3099,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-7.38644121E-06, 7.66858864, -1.68236828)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (1.31130219E-06, 6.27709389, 0.103723288)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, -1.7, 0.0)
@@ -3149,10 +3149,10 @@ PART
 	part = madv.elevator_4293083646
 	partName = Part
 	persistentId = 4108249768
-	pos = -7.66346784E-06,7.66858959,-2.7619009
+	pos = 1.03427556E-06,5.19756699,0.103722334
 	attPos = 0,0,0
 	attPos0 = -1.57817112E-07,-2.76190662,0.0074608326
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -3304,8 +3304,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-7.66346784E-06, 7.66858959, -2.76189518)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (1.03427556E-06, 5.19756699, 0.103722334)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.3, -2.3)
@@ -3350,10 +3350,10 @@ PART
 	part = madv.gear_4293083532
 	partName = Part
 	persistentId = 3712336036
-	pos = -2.61675143,4.99994183,-2.14388561
+	pos = -2.61674285,5.81558037,2.77235985
 	attPos = 0,0,0
 	attPos0 = -2.61674404,-2.14387608,2.67609072
-	rot = 0.270598024,0.65328145,0.653281569,0.270598084
+	rot = -4.47034765E-08,0.923879564,8.9406953E-08,0.382683456
 	attRot = 0,0.707106709,-0.707106709,0
 	attRot0 = -4.21468513E-08,0.923879564,8.42937027E-08,0.382683456
 	mir = 1,1,1
@@ -3430,114 +3430,39 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleAnimateGeneric
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelBogey
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Retracted
-		stateString = Retracted
-		stagingEnabled = True
-		position = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ToggleAction
 			{
 				actionGroup = Gear
 				wasActiveBeforePartWasAdjusted = False
 			}
 		}
-		UPGRADESAPPLIED
+		AXISGROUPS
 		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 3
-		damperTweakable = 1
-		autoSpringDamper = True
-		suspensionPos = (-1, -1, -1)
-		suspensionDefaultPos = (-7.00439841E-07, 0.00318782032, 0.550026059)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -3580,8 +3505,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-2.61675143, 4.99994183, -2.14387989)
-		originalRotation = (0.270598054, 0.65328151, 0.653281629, 0.270598114)
+		originalPos = (-2.61674285, 5.81558037, 2.77235985)
+		originalRotation = (-4.47034765E-08, 0.923879564, 8.9406953E-08, 0.382683456)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -3626,10 +3551,10 @@ PART
 	part = madv.gear_4293083416
 	partName = Part
 	persistentId = 4216561265
-	pos = 2.61673665,4.99994183,-2.14388561
+	pos = 2.61674523,5.81558037,2.77235985
 	attPos = 0,0,0
 	attPos0 = 2.61674404,-2.14387608,2.67609072
-	rot = -0.270598054,0.65328145,0.653281569,-0.270598054
+	rot = 0,0.923879564,8.9406953E-08,-0.382683456
 	attRot = 0.49999994,0.49999994,-0.49999994,-0.49999994
 	attRot0 = -1.4901163E-08,0.923879564,4.47034836E-08,-0.382683456
 	mir = 1,1,1
@@ -3706,114 +3631,39 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleAnimateGeneric
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelBogey
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Retracted
-		stateString = Retracted
-		stagingEnabled = True
-		position = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ToggleAction
 			{
 				actionGroup = Gear
 				wasActiveBeforePartWasAdjusted = False
 			}
 		}
-		UPGRADESAPPLIED
+		AXISGROUPS
 		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 3
-		damperTweakable = 1
-		autoSpringDamper = True
-		suspensionPos = (-1, -1, -1)
-		suspensionDefaultPos = (-7.00439841E-07, 0.00318782032, 0.550026059)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -3856,284 +3706,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (2.61673665, 4.99994183, -2.14387989)
-		originalRotation = (-0.270598084, 0.65328151, 0.653281629, -0.270598084)
-		moduleVersion = 5
-		stagingEnabled = True
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 0.0, 1.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1500
-		OriginalCrewCapacity = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = madv.gear_4293083300
-	partName = Part
-	persistentId = 2583755427
-	pos = -2.61831355,10.3386021,-2.14387417
-	attPos = 0,0,0
-	attPos0 = -2.61830616,-2.14387608,-2.66254711
-	rot = 0.653281391,0.270598233,0.270598233,0.65328151
-	attRot = -0.49999994,0.49999994,-0.49999994,0.49999994
-	attRot0 = -4.470348E-08,0.382683694,-1.49011603E-08,0.923879445
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Heaviest
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = top,madv.lf_4293084844_0|0|0_3.5527147E-14|-1.19209304E-07|1_0|0|0_3.5527147E-14|-1.19209304E-07|1
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutOff
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutRoot
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutHeaviest
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutGrandparent
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleWheelBase
-		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActAutoFrictionToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelBogey
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Retracted
-		stateString = Retracted
-		stagingEnabled = True
-		position = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
-			{
-				actionGroup = Gear
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 1
-		damperTweakable = 1
-		autoSpringDamper = True
-		suspensionPos = (-1, -1, -1)
-		suspensionDefaultPos = (-7.00439841E-07, 0.00318782032, 0.550026059)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = SimpleRepaint
-		currentSubtype = SR_Original
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = AttachedOnEditor
-		isEnabled = True
-		active = True
-		originalPos = (-2.61831355, 10.3386011, -2.1438694)
-		originalRotation = (0.653281391, 0.270598233, 0.270598233, 0.65328151)
+		originalPos = (2.61674523, 5.81558037, 2.77235985)
+		originalRotation = (0, 0.923879564, 8.9406953E-08, -0.382683456)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -4178,10 +3752,10 @@ PART
 	part = madv.gear_4293083184
 	partName = Part
 	persistentId = 3898194817
-	pos = 2.61829877,10.3386021,-2.14387417
+	pos = 2.61830735,5.81559181,-2.5663023
 	attPos = 0,0,0
 	attPos0 = 2.61830616,-2.14387608,-2.66254711
-	rot = 0.65328151,-0.270597965,-0.270597965,0.653281629
+	rot = -8.94069601E-08,-0.382683277,0,0.923879623
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = -4.21468478E-08,-0.382683307,-4.21468478E-08,0.923879623
 	mir = 1,1,1
@@ -4258,114 +3832,39 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWheelBase
+		name = ModuleAnimateGeneric
 		isEnabled = True
-		wheelType = LEG
-		isGrounded = False
-		autoFriction = False
-		frictionMultiplier = 1
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			ActAutoFrictionToggle
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelLock
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDamage
-		isEnabled = True
-		isDamaged = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelBogey
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelDeployment
-		isEnabled = True
-		shieldedCanDeploy = False
-		stateDisplayString = Retracted
-		stateString = Retracted
-		stagingEnabled = True
-		position = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionToggle
+			ToggleAction
 			{
 				actionGroup = Gear
 				wasActiveBeforePartWasAdjusted = False
 			}
 		}
-		UPGRADESAPPLIED
+		AXISGROUPS
 		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleWheelSuspension
-		isEnabled = True
-		springTweakable = 3
-		damperTweakable = 1
-		autoSpringDamper = True
-		suspensionPos = (-1, -1, -1)
-		suspensionDefaultPos = (-7.00439841E-07, 0.00318782032, 0.550026059)
-		autoBoost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -4408,8 +3907,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (2.61829877, 10.3386011, -2.1438694)
-		originalRotation = (0.65328151, -0.270597965, -0.270597965, 0.653281629)
+		originalPos = (2.61830735, 5.81559181, -2.5663023)
+		originalRotation = (-8.94069601E-08, -0.382683277, 0, 0.923879623)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -4454,10 +3953,10 @@ PART
 	part = madv.ox_4293083068
 	partName = Part
 	persistentId = 1105994364
-	pos = -8.10169695E-06,7.68756866,5.37802839
+	pos = 5.96046448E-07,13.3375025,0.0847438574
 	attPos = 0,0,0
 	attPos0 = -5.96046448E-07,5.37796736,-0.0115323039
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -4568,7 +4067,7 @@ PART
 	{
 		name = ModuleCryoTank
 		isEnabled = True
-		LastUpdateTime = 31646317.542372111
+		LastUpdateTime = 31648685.585423063
 		CoolingAllowed = True
 		CoolingEnabled = True
 		BoiloffOccuring = False
@@ -4636,8 +4135,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.10169695E-06, 7.68756866, 5.3780303)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (5.96046448E-07, 13.3375025, 0.0847438574)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 1.8, 0.0)
@@ -4708,10 +4207,10 @@ PART
 	part = madv.lab_4293083000
 	partName = Part
 	persistentId = 1004484492
-	pos = -8.34011553E-06,7.73518372,7.9687314
+	pos = 3.57627869E-07,15.9282064,0.0371286869
 	attPos = 0,0,0
 	attPos0 = -2.38418579E-07,2.59069443,-0.0476155169
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5000,8 +4499,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.34011553E-06, 7.73518372, 7.96873188)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (3.57627869E-07, 15.9282064, 0.0371286869)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.8, 0.0)
@@ -5061,10 +4560,10 @@ PART
 	part = madv.hab_4293391822
 	partName = Part
 	persistentId = 1619690308
-	pos = -8.45932482E-06,7.75073719,9.47875118
+	pos = 2.38418579E-07,17.4382286,0.0215750933
 	attPos = 0,0,0
 	attPos0 = -1.1920929E-07,1.51000452,-0.015552517
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5262,8 +4761,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.45932482E-06, 7.75073719, 9.47875118)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (2.38418579E-07, 17.4382286, 0.0215750933)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.7, 0.0)
@@ -5331,11 +4830,11 @@ PART
 	part = madv.cockpit_4293391478
 	partName = Part
 	persistentId = 1160752785
-	pos = -8.6977434E-06,7.77231216,10.9076262
+	pos = 0,18.8671036,0
 	attPos = 0,0,0
-	attPos0 = -8.6977434E-06,7.77231216,10.9076262
-	rot = 0.707106829,0,0,0.707106829
-	attRot = 0,0,0,1
+	attPos0 = 0,18.8671036,0
+	rot = 0,0,0,1
+	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = 0.707106769,0,0,0.707106769
 	mir = 1,1,1
 	symMethod = Mirror
@@ -6437,8 +5936,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.6977434E-06, 7.77231216, 10.9076262)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (0, 18.8671036, 0)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.6, 0.1)
@@ -6536,10 +6035,10 @@ PART
 	part = madv.cap_4293390748
 	partName = Part
 	persistentId = 3168668310
-	pos = 0.545609593,7.6994772,11.5923939
+	pos = 0.545618296,19.5518723,0.072834909
 	attPos = 0,0,0
 	attPos0 = 0.545618296,0.68476963,0.0728349537
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -6695,8 +6194,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (0.545609593, 7.6994772, 11.5923939)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (0.545618296, 19.5518723, 0.072834909)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.0, 0.0)
@@ -6741,10 +6240,10 @@ PART
 	part = B10.NDS_4293386256
 	partName = Part
 	persistentId = 1163907085
-	pos = -8.84068504E-06,7.69947815,11.5240974
+	pos = -1.42941644E-07,19.4835758,0.0728339553
 	attPos = 0,0,0
 	attPos0 = -1.42941417E-07,0.616473198,0.072834
-	rot = 0.707106829,0,0,0.707106829
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -7083,8 +6582,8 @@ PART
 		name = AttachedOnEditor
 		isEnabled = True
 		active = True
-		originalPos = (-8.84068504E-06, 7.69947815, 11.5240974)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
+		originalPos = (-1.42941644E-07, 19.4835758, 0.0728339553)
+		originalRotation = (0, 0, 0, 1)
 		moduleVersion = 5
 		stagingEnabled = True
 		originalAttachNodePos = (0.0, 0.2, 0.0)
@@ -7115,6 +6614,207 @@ PART
 		defaultScale = 1.25
 		defaultTransformScale = (0, 0, 0)
 		DryCost = 350
+		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = madv.gear_4293489624
+	partName = Part
+	persistentId = 131064427
+	pos = -2.61830497,5.81563187,-2.56627321
+	attPos = 0,0,0
+	attPos0 = -2.61830616,-2.14387608,-2.66254711
+	rot = -4.21468478E-08,0.382683665,4.21468478E-08,0.923879445
+	attRot = -0.707106709,0,0,0.707106709
+	attRot0 = -4.21468478E-08,0.382683665,4.21468478E-08,0.923879445
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Heaviest
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,madv.lf_4293084844_0|0|0_3.5527147E-14|-1.19209304E-07|1_0|0|0_3.5527147E-14|-1.19209304E-07|1
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Gear
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = SimpleRepaint
+		currentSubtype = SR_Original
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = AttachedOnEditor
+		isEnabled = True
+		active = True
+		originalPos = (-2.61830497, 5.81563187, -2.56627321)
+		originalRotation = (-4.21468478E-08, 0.382683665, 4.21468478E-08, 0.923879445)
+		moduleVersion = 5
+		stagingEnabled = True
+		originalAttachNodePos = (0.0, 0.0, 0.0)
+		originalAttachNodeSize = 1
+		originalAttachNodeOrientation = (0.0, 0.0, 1.0)
+		originalAttachNodeOffset = (0.0, 0.0, 0.0)
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		active = True
+		available = True
+		currentScale = 1.25
+		defaultScale = 1.25
+		defaultTransformScale = (0, 0, 0)
+		DryCost = 1500
 		OriginalCrewCapacity = 0
 		stagingEnabled = True
 		EVENTS
