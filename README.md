@@ -11,6 +11,6 @@ Highly Recommended Mods
 - Trajectories (accounts for atmospheric factors to predict your landing position)
 - MechJeb (to hold attitude during atmospheric entry)
 - Conformal Decals
-- Artemis Construction Kit (primary launch vehicle for Mars Base Camp components)
+- Artemis Construction Kit (for SLS, primary launch vehicle for Mars Base Camp components)
  
 All Rights Reserved.
