@@ -6,9 +6,11 @@ Dependencies
 - Module Manager
 
 Highly Recommended Mods
-- Artemis Construction Kit (SLS Block 1 and Orion)
-- Photon Corp. (Better SRBs for SLS)
-- Kertemis Program (Parts for SLS Blocks 1B and 2)
-- Near Future Solar (Panels for Solar Electric Propulsion Module) // when that gets made
+- Benjee10 Shared Assets (for docking ports)
+- CryoTanks (cryogenic propellant boiloff)
+- Trajectories (accounts for atmospheric factors to predict your landing position)
+- MechJeb (to hold attitude during atmospheric entry)
+- Conformal Decals
+- Artemis Construction Kit (primary vehicle for Mars Base Camp components)
  
 All Rights Reserved.
